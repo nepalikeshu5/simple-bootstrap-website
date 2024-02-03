@@ -1,4 +1,49 @@
 body {
     background-color: #f5d9d5;
+}
+
+#mainNavbar .navbar-brand {
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 900;
+    font-size: 25px;
+    padding-right: 30px;
+    color: rgb(123, 40, 6);
+}
+
+
+#mainNavbar.navbar {
+    background-color: rgba(141, 47, 7, 0.464);
+    font-family: 'roboto', 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#mainNavbar .collapse .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+#mainNavbar .collapse .nav-link:hover {
+    color: rgb(250, 200, 200);
+}
+
+
+
+.first-header {
+    height: 35vh;
+    margin-top: 52px;
+}
+
+.first-header h2 {
+    font-family: 'poppins',
+        'sans-serif';
+    font-weight: 400;
+    color: rgb(123, 40, 6);
+}
+
+.first-header p {
+    line-height: normal;
+    font-style: italic;
+    font-size: 16px;
 
 }
