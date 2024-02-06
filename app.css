@@ -20,6 +20,11 @@ body {
 
 }
 
+#mainNavbar:hover {
+    background-color: rgba(141, 47, 7, 0.636);
+    transition: ease-in-out 0.3s;
+}
+
 
 #mainNavbar .collapse .nav-link {
     color: rgb(255, 255, 255);
@@ -28,6 +33,7 @@ body {
 #mainNavbar .collapse .nav-link:hover {
     color: rgb(250, 200, 200);
 }
+
 
 h2 {
     color: #ea1c2c;
@@ -40,4 +46,9 @@ p {
 
 .content strong {
     padding-left: 50px;
+}
+
+#lastSec {
+    font-weight: 700;
+    font-size: 1.1rem;
 }
