@@ -52,3 +52,45 @@ p {
     font-weight: 700;
     font-size: 1.1rem;
 }
+
+.footer-btn {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    border-radius: 30%;
+    position: absolute;
+    top: -18px;
+    right: 18px;
+    transform: rotate(45deg);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer-btn span {
+
+    /* display: inline-block; */
+    transform: rotate(45deg);
+    position: absolute;
+    transform-origin: center;
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(45deg);
+    text-decoration: none;
+    color: #f5d9d5;
+
+}
+
+/* new code  */
+
+
+
+
+
+
+
+footer {
+    padding: 20px;
+    position: relative;
+    color: blanchedalmond;
+    background-color: #7d0c0c;
+}
