@@ -21,10 +21,20 @@ body {
 }
 
 #mainNavbar:hover {
-    background-color: rgba(141, 47, 7, 0.636);
+    background-color: rgba(141, 47, 7, 0.76);
     transition: ease-in-out 0.3s;
 }
 
+.fab {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.fab:hover {
+    color: rgb(189, 187, 187);
+    transition: ease-in-out 0.3s;
+
+}
 
 #mainNavbar .collapse .nav-link {
     color: rgb(255, 255, 255);
@@ -55,36 +65,24 @@ p {
 
 .footer-btn {
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: inherit;
     border-radius: 30%;
     position: absolute;
     top: -18px;
     right: 18px;
     transform: rotate(45deg);
-    font-size: 20px;
-    font-weight: 900;
+
+
 }
 
-.footer-btn span {
-
-    /* display: inline-block; */
+.footer-btn .fas {
     transform: rotate(45deg);
-    position: absolute;
-    transform-origin: center;
-    transform-origin: center center;
-    transform: translate(-50%, -50%) rotate(45deg);
-    text-decoration: none;
     color: #f5d9d5;
-
+    padding-block: 0px;
+    padding-inline: 0px;
 }
-
-/* new code  */
-
-
-
-
 
 
 

@@ -17,7 +17,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:ital,wght@0,300;0,400;1,700&family=Poppins:ital,wght@0,300;0,500;0,700;0,900;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,300;1,400;1,600&family=Roboto+Condensed:wght@500&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6e2d770b8b.js" crossorigin="anonymous"></script>
 
     <title>Our popular candy</title>
 </head>
@@ -29,17 +29,27 @@
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navLinks">
+        <div class="collapse navbar-collapse justify-content-between" id="navLinks">
+
             <ul class="navbar-nav">
                 <li class="nav-item px-2"><a href="" class="nav-link">Home</a></li>
                 <li class="nav-item px-2"><a href="" class="nav-link">About Us</a></li>
                 <li class="nav-item px-2"><a href="" class="nav-link">contact Us</a></li>
-
             </ul>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item px-3"><a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a></li>
+                <li class="nav-item px-3"> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item px-3"><a href="https://www.whatsapp.com/"> <i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+
 
         </div>
 
+
+
     </nav>
+
     <!-- ending nav section -->
     <section class="container-fluid px-0 my-5">
         <div class="row align-items-sm-center">
@@ -163,7 +173,7 @@
                 <div class="row">
                     <img class="img-fluid p-sm-0  px-md-5" src="images/ph final process.png" alt="">
                 </div>
-                <div class="content mt-5 px-3">
+                <div class="content mt-5 px-3" id="details-processing">
                     <strong>1.Harvesting:</strong>
                     <p class="text-left m-3 px-5">
                         Cocoa trees produce pods that contain cocoa beans. Farmers
@@ -289,15 +299,21 @@
         </div>
     </section>
 
-    <!-- aniother code -->
+    <!-- footer section -->
     <footer>
-        <button class="footer-btn ">
-            <a href="#">
-                <span class="rotate-text">
-                    &lt;</span>
-            </a>
+        <button class="footer-btn "><a href="#"><i class="fas fa-arrow-left" style="font-size:20px;"></i></a>
+
         </button>
-        <div class="foter-text text-center">Copyright © 2022 Cocoa Machinery</div>
+        <h6 class="text-center">follow us on </h6>
+        <ul class="navbar-nav d-flex flex-row justify-content-center">
+            <li class="nav-item px-3"><a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a></li>
+            <li class="nav-item px-3"> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="nav-item px-3"><a href="https://www.whatsapp.com/"> <i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <div class="foter-text text-center pt-3">Copyright © 2022 Cocoa Machinery</div>
+
+
 
 
 
@@ -306,6 +322,7 @@
 
 
     </footer>
+
 </body>
 
 </html>
